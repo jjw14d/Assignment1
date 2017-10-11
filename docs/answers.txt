@@ -1,0 +1,44 @@
+
+(a)
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 396 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jjw14d/Assignment1
+   67fc425..9c80d34  master -> master
+
+(b) 8 commits have been made. Check with the 'shortlog' command.
+
+(c) September 27. Found using github UI.
+
+(d) irlabuser was the author for both merges.
+
+(e) Changes are isolated from the main body of code, so they can be
+committed without overwriting the master. This way, team members
+can view, edit, and discuss solutions for a temporary module without
+permanently overwriting the master.
+
+(f) 'log' gives verbose information on previous commits and repository
+history, while status outputs information pertaining to the state of the present
+working directory in comparison to the remote repository.
+
+(g) git log -p Weapon.h
+
+(h) git log grep=file
+
+(i)
+	I.) Inheritance is a mechanism by which one class, called the child of
+	another class, can 'inherit' properties of the latter, such as
+	functions and member variables, while also having properties unique
+	to itself.
+	
+	II.) Polymorphism refers to the technique of desinging
+	software such that it will work the same regardless of the type of
+	its input. Templated classes and functions in C++ are one example.
+	
+	III.) Encapsulated software is that which puts related data elements
+	that frequently interact inside a single object, by which the
+	user may perform the tasks carried out by its contents without
+	undesrstanding their exact implementation.
