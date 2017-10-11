@@ -8,6 +8,7 @@
 #include "CrazyRandomSword.h"
 
 CrazyRandomSword::CrazyRandomSword(){
+    srand(time(0));
     hitPoints = (rand() % 90) + 10;	
 }
 
