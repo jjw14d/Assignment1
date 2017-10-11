@@ -1,4 +1,4 @@
-*
+/*
  * File:   SimpleAxe.cpp
  * Author: Jackson Walsh <jjw14dmy.fsu.edu
  *
@@ -13,7 +13,7 @@ double SimpleAxe::hit(double armor){
     if (armor > 0 && armor < 20)
 	damage = 60;
     else
-	damage = hitpoints - armor;
+	damage = hitPoints - armor;
     if(damage < 0){
         return 0;
     }

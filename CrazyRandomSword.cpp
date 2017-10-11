@@ -7,13 +7,13 @@
 
 #include "CrazyRandomSword.h"
 
-CrazyRandomSword::CrazyRandomSword(){
+CrazyRandomSword::CrazyRandomSword() : Weapon ("Crazy Random Sword", 0.0){
     srand(time(0));
-    hitPoints = (rand() % 90) + 10;	
+    hitPoints = ((int)rand() % 90) + 10;	
 }
 
 double CrazyRandomSword::hit(double armor){
-    double damage = hitPoints - (rand() % (armor / 2));
+    double damage = hitPoints - ((int)rand() % (int)(armor / 2));
     if(damage < 0){
         return 0;
     }

@@ -18,10 +18,10 @@ armored targets.)
 class FlamingRagingPoisoningSwordOfDoom : public Weapon {
 public:
 
-    FlamingRagingPoisoningSwordOfDoom() : Weapon("Flaming Raging Poisoning Sword Of Doom", 10000.0) {
+    FlamingRagingPoisoningSwordOfDoom() : Weapon("Flaming Raging Poisoning Sword of Doom", 10000.0) {
     }
     virtual ~FlamingRagingPoisoningSwordOfDoom() {};
-    virtual double smash(double armor);
+    virtual double hit(double armor);
 
 };
 

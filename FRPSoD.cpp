@@ -7,8 +7,8 @@
 #include "FRPSoD.h"
 
 
-double FlamingRagingPoisoningSwordOfDoom::smash(double armor){
-    double damage = hitPoints + armor;
+double FlamingRagingPoisoningSwordOfDoom::hit(double armor){
+    double damage = hitPoints + armor * 500;
     if(damage < 0){
         return 0;
     }
